@@ -1,0 +1,12 @@
+JBIG2 encoder by Yan Ye and Pamela Cosman imported from
+http://www.code.ucsd.edu/cosman/jb2.zip
+
+It can only convert pbm images. By default the images to be converted have to
+be present in ../data, so make sure the directory exists, and the image are
+there. Contrary to what -help says, it doesn't take a second argument.
+For instance, if you want to convert the test.pbm image present in the test
+directory, you can do:
+
+./doc_coder -p ./test test
+This will generate a test.jb2 file.
+
